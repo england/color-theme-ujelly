@@ -9,7 +9,7 @@
 
 (let ((class '((class color) (min-colors 89)))
       (ujelly-fg "#ffffff")
-      (ujelly-bg "#000000")
+      (ujelly-bg "#111111")
       (ujelly-blue-0 "#8fbfdc")
       (ujelly-green-0 "#99ad6a")
       (ujelly-green-1 "#447799")
@@ -108,7 +108,7 @@
        `(magit-log-sha1 ((,class (:foreground ,ujelly-red-0))))
        `(magit-log-head-label-local ((,class (:foreground ,ujelly-fg))))
        `(magit-whitespace-warning-face ((,class (:background ,ujelly-red-1))))
-       `(magit-blame-header ((,class (:underline nil :background ,ujelly-grey-2))))
+       `(magit-blame-header ((,class (:underline nil :background ,ujelly-grey-4))))
        `(match ((,class (:background ,ujelly-red-1))))
        `(minibuffer-prompt ((,class (:foreground ,ujelly-fg))))
        `(mode-line ((,class (:foreground ,ujelly-fg :background nil :box nil))))
